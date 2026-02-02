@@ -161,7 +161,7 @@ export const Diagnosis = () => {
         <div className="result-screen">
           {/* テキスト表示 */}
           <h2>
-            {userName}のタイプは
+            {userName}さんのタイプは
             <br />
             {finishedResult.title}
           </h2>
