@@ -34,56 +34,56 @@ const questions = [
 const results = [
   {
     type: "A",
-    title: "織田信長タイプでした🌈",
+    title: "織田信長でした🌈",
     image: "/image/type-a.png",
     minScore: 0,
     maxScore: 4,
   },
   {
     type: "B",
-    title: "坂本龍馬タイプでした🌈",
+    title: "坂本龍馬でした🌈",
     image: "/image/type-b.png",
     minScore: 5,
     maxScore: 8,
   },
   {
     type: "C",
-    title: "諸葛孔明タイプでした🌈",
+    title: "諸葛孔明でした🌈",
     image: "/image/type-c.png",
     minScore: 9,
     maxScore: 12,
   },
   {
     type: "D",
-    title: "豊臣秀吉タイプでした🌈",
+    title: "豊臣秀吉でした🌈",
     image: "/image/type-d.png",
     minScore: 13,
     maxScore: 16,
   },
   {
     type: "E",
-    title: "ダ・ヴィンチタイプでした🌈",
+    title: "ダ・ヴィンチでした🌈",
     image: "/image/type-e.png",
     minScore: 17,
     maxScore: 20,
   },
   {
     type: "F",
-    title: "ナイチンゲールタイプでした🌈",
+    title: "ナイチンゲールでした🌈",
     image: "/image/type-n.png",
     minScore: 21,
     maxScore: 24,
   },
   {
     type: "G",
-    title: "エジソンタイプでした🌈",
+    title: "エジソンでした🌈",
     image: "/image/type-g.png",
     minScore: 25,
     maxScore: 28,
   },
   {
     type: "H",
-    title: "マリー・アントワネットタイプでした🌈",
+    title: "マリー・アントワネットでした🌈",
     image: "/image/type-h.png",
     minScore: 29,
     maxScore: 999,
@@ -161,7 +161,7 @@ export const Diagnosis = () => {
         <div className="result-screen">
           {/* テキスト表示 */}
           <h2>
-            {userName}のタイプは
+            {userName}さんは
             <br />
             {finishedResult.title}
           </h2>
