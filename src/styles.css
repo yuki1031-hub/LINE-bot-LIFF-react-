@@ -179,3 +179,123 @@ body {
   /* 少し影をつけるとポップになります */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* ▼▼▼ チャットボット用のスタイル ▼▼▼ */
+.ad-container {
+  background-color: #f0f4f8; /* 背景色を少しビジネスっぽく */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-box {
+  background: white;
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bot-message {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.bot-icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.message-bubble {
+  background-color: #e9e9e9;
+  padding: 15px;
+  border-radius: 0 15px 15px 15px;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #333;
+}
+
+.chat-image img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.options-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-btn {
+  background-color: #00b900; /* LINEっぽい緑 */
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.option-btn:hover {
+  opacity: 0.8;
+}
+
+/* ▼▼▼ ホーム画面（メニュー）用のスタイル ▼▼▼ */
+.home-container {
+  padding: 40px 20px;
+  background-color: #fcfcfc;
+  min-height: 100vh;
+}
+
+.home-container h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-btn {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.menu-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* 各ボタンの色 */
+.diagnosis-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.chat-btn {
+  background: linear-gradient(135deg, #0ba360 0%, #3cba92 100%);
+}
+
+.disabled-btn {
+  background-color: #ccc;
+  cursor: not-allowed;
+  border: none;
+}
