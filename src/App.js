@@ -13,7 +13,7 @@ export default function App() {
       <div className="App">
         <Routes>
           {/* 👇 URLごとの行き先を設定する場所 */}
-          
+
           {/* トップページ (https://.../) */}
           <Route path="/" element={<Home />} />
 
@@ -22,7 +22,6 @@ export default function App() {
 
           {/* 広告チャット (https://.../chat) */}
           <Route path="/chat" element={<AdChatbot />} />
-          
         </Routes>
       </div>
     </BrowserRouter>
