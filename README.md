@@ -1,4 +1,5 @@
 # 偉人タイプ診断 🏛️
+![アプリのデモ](./ijindemo.png)
 
 ## はじめに
 
@@ -37,5 +38,5 @@
 
 実際の画面イメージです。
 
-![アプリのスクリーンショット](./public/demo.png)
+![アプリのデモ](./ijindemo.gif)
 [👉 アプリを実際に試す](https://ijin-shindan.vercel.app)
