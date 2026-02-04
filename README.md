@@ -39,4 +39,4 @@
 実際の画面イメージです。
 
 ![アプリのデモ](./ijindemo.gif)
-[👉 アプリを実際に試す](https://ijin-shindan.vercel.app)
+[👉 アプリを実際に試す](https://my-portfolio-2026-sigma.vercel.app/#/diagnosis)
