@@ -196,25 +196,23 @@ export default function Diagnosis() {
           /* ■■ 質問画面 ■■ */
           <div className="question-screen" key={currentQuestionIndex}>
             <div className="line-icon">👻</div>
-            <div className="speech-bubble">
-              <div className="progress-text">
-                Q.{questions[currentQuestionIndex].id} / {questions.length}
-              </div>
-              <h2 className="question-text">
-                {questions[currentQuestionIndex].text}
-              </h2>
-            </div>
-            <div className="button-container">
-              {COMMON_OPTIONS.map((option) => (
-                <button
-                  key={option.text}
-                  onClick={() => handleClickAnswer(option.score)}
-                  className="option-btn"
-                >
-                  {option.text}
-                </button>
-              ))}
-            </div>
+       <div className="speech-bubble">
+  <h2 className="question-text">
+    Q{questions[currentQuestionIndex].id}.{" "}
+    {questions[currentQuestionIndex].text}
+  </h2>
+  <div className="button-container">
+    {COMMON_OPTIONS.map((option) => (
+      <button
+        key={option.text}
+        onClick={() => handleClickAnswer(option.score)}
+        className="option-btn"
+      >
+        {option.text}
+      </button>
+    ))}
+  </div>
+</div>
           </div>
         )}
       </div>
