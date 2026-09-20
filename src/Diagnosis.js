@@ -103,7 +103,7 @@ export default function Diagnosis() {
 
   useEffect(() => {
     liff
-      .init({ liffId: "2009029412-d1KRC9Mp" })
+      .init({ liffId: "2009368095-wKQfmskM" })
       .then(() => {
         if (liff.isLoggedIn()) {
           liff
